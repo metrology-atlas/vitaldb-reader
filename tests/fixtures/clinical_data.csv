@@ -1,0 +1,2 @@
+caseid,subjectid,casestart,caseend,anestart,aneend,opstart,opend,adm,dis,icu_days,death_inhosp,age,sex,height,weight,bmi,asa,emop,department,optype,dx,opname,approach,position,ane_type,preop_hb,intraop_ebl
+1,901,0,60,-120,58,10,55,-86400,400000,2,0,63,F,160.2,55.1,21.5,2,0,General surgery,Colorectal,Synthetic dx,Synthetic op,Open,Supine,General,12.9,300

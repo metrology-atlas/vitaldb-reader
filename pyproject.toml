@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vitaldb-reader"
+version = "0.1.0"
+description = "Read VitalDB .vital files at native resolution, with the VitalDB metrology atlas's corrections"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Andrew J. Goodwin" }]
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24"]
+keywords = ["VitalDB", "vital file", "physiological signals", "metrology", "time stamps"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+
+[project.urls]
+Repository = "https://github.com/metrology-atlas/vitaldb-reader"
+"Metrology atlas" = "https://vitaldb.metrology-atlas.org"
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vitaldb_reader"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
