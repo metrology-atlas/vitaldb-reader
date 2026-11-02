@@ -10,7 +10,7 @@ analysis can say exactly which it applied.
 ## Install
 
 ```bash
-pip install "vitaldb-reader @ git+https://github.com/metrology-atlas/vitaldb-reader@v0.1.0"
+pip install "vitaldb-reader @ git+https://github.com/metrology-atlas/vitaldb-reader@0.1.0"
 ```
 
 ## Use
